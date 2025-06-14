@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    color: #2b283a;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+
+header h1{
+    font-size: 2.25rem;
+    color: whitesmoke;
+}
+ 
+header h2{
+    font-size: 1.25rem;
+    color: #d0aaff;
+}
+
+section {
+    padding: 45px 0;
+}
+
+#crafting-link {
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+#crafting-link:hover, #crafting-link:active {
+    color: #d4b44c;
+}
+
+.main-img {
+    width: 100%;
+}
