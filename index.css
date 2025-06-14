@@ -29,6 +29,15 @@ section {
     padding: 45px 0;
 }
 
+#crafting-link {
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+#crafting-link:hover, #crafting-link:active {
+    color: #d4b44c;
+}
+
 .main-img {
     width: 100%;
 }
