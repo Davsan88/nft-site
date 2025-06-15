@@ -10,6 +10,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
 header {
     background-color: #5f29a3;
     padding: 45px 0;
