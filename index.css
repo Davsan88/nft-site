@@ -45,6 +45,8 @@ p{
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
+    margin: 20px 0;
+    display: inline-block;
 }
 
 .btn-dark {
