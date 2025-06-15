@@ -57,3 +57,13 @@ section {
 .main-img {
     width: 100%;
 }
+
+.purple-section-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image {
+    width: 300px;
+    border-radius: 4.6px;
+}
