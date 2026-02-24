@@ -13,17 +13,17 @@ h3 {
 
 h1 {
     color: whitesmoke;
-    font-size: 36px;
+    font-size: 2.25em;
 }
 
 h2 {
     color: #451c7a;
-    font-size: 28px;
+    font-size: 1.75em;
     margin-top: 0;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 
 .subheading {
     display: block;
-    font-size: 20px;
+    font-size: 0.56em;
     color: #d0aaff;
 }
 
@@ -99,20 +99,17 @@ header,
     color: whitesmoke;
 }
 
-/*
- Challenge:
-  Use a percentage value to create flexible containers 
-  that resize according to their parent’s width
-*/
-
 .container {
-    width: 640px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .main-image {
     width: 100%;
-    margin-bottom: 32px;
+    display: block;
+    max-width: 640px;
+    margin: 0 auto 32px;
 }
 
 .section-two-image-container {
@@ -121,7 +118,7 @@ header,
 }
 
 .feature-image {
-    width: 310px;
+    width: 48%;
     border-radius: 4.6px;
 }
 
