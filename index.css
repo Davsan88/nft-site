@@ -1,107 +1,127 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-size: 1rem;
     color: #2b283a;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-/* typography */
+/* ----- TYPOGRAPHY ----- */
 
-header h1 {
-    font-size: 2.25rem;
+h1, 
+h3 {
+    margin: 0;
+}
+
+h1 {
     color: whitesmoke;
+    font-size: 36px;
 }
 
-header h2 {
-    font-size: 1.25rem;
-    color: #d0aaff;
+h2 {
+    color: #451c7a;
+    font-size: 28px;
+    margin-top: 0;
 }
 
-p{
+h3 {
+    font-size: 20px;
+}
+
+p {
     line-height: 23px;
 }
 
-
-
-/* links */
-
-#crafting-link {
-    color: #ef5839;
-    text-decoration: underline dotted;
+.subheading {
+    display: block;
+    font-size: 20px;
+    color: #d0aaff;
 }
 
-#crafting-link:hover,
-#crafting-link:active {
+.section-two h2 {
+    color: inherit;
+}
+
+/* ----- LINKS ----- */
+
+a {
+    color: #ef5839;
+    text-decoration: underline dotted; 
+}
+
+a:hover, 
+a:active {
     color: #d4b44c;
 }
 
 .btn {
-    padding: 10px 19px;
-    border-radius: 4.6px;
+    font-size: 18px;
     font-weight: 500;
     text-decoration: none;
-    margin: 20px 0;
     display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4.6px;
 }
 
 .btn-dark {
-    background-color: #5f29a3;
     color: whitesmoke;
+    background: #5f29a3;
 }
 
 .btn-mid {
-    background-color: #f0e0ff;
-    color: #5f29a3;
+    color: #5f29a3; 
+    background: #f0e0ff; 
 }
 
 .btn-light {
-    background-color: whitesmoke;
-    color: #5f29a3;
+    color: #5f29a3; 
+    background: whitesmoke;
 }
 
-.btn:hover, .btn:active {
+.btn:hover, 
+.btn:active {
+    color: #2b238a;
     background-color: #f3e885;
-    color: #2b283a;
 }
 
+/* ----- LAYOUT ----- */
 
-/* layout */
-
-header,
-section,
+header, 
+section, 
 footer {
-    padding: 45px 0
+    padding: 46px 0;
 }
 
-header, .purple-section {
+header, 
+.section-two {
     background-color: #5f29a3;
 }
 
-.purple-section {
+.section-two {
     color: whitesmoke;
 }
 
+/*
+ Challenge:
+  Use a percentage value to create flexible containers 
+  that resize according to their parent’s width
+*/
+
 .container {
-    width: 620px;
+    width: 640px;
     margin: 0 auto;
 }
 
-.main-img {
+.main-image {
     width: 100%;
+    margin-bottom: 32px;
 }
 
-.purple-section-image-container {
+.section-two-image-container {
     display: flex;
     justify-content: space-between;
 }
 
 .feature-image {
-    width: 300px;
+    width: 310px;
     border-radius: 4.6px;
 }
 
